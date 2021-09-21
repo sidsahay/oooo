@@ -1,0 +1,89 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Light.tres" type="Theme" id=1]
+
+[node name="IQEntry" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 416.0
+margin_bottom = 40.0
+color = Color( 0.176471, 0.290196, 0.235294, 1 )
+
+[node name="Busy" type="Label" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+theme = ExtResource( 1 )
+text = "B"
+align = 1
+valign = 1
+
+[node name="IA" type="Label" parent="."]
+margin_left = 40.0
+margin_right = 104.0
+margin_bottom = 40.0
+theme = ExtResource( 1 )
+text = "IA"
+align = 1
+valign = 1
+
+[node name="Op1" type="Label" parent="."]
+margin_left = 104.0
+margin_right = 168.0
+margin_bottom = 40.0
+theme = ExtResource( 1 )
+text = "Op1"
+align = 1
+valign = 1
+
+[node name="Valid1" type="Label" parent="."]
+margin_left = 168.0
+margin_right = 208.0
+margin_bottom = 40.0
+theme = ExtResource( 1 )
+text = "V1"
+align = 1
+valign = 1
+
+[node name="Op2" type="Label" parent="."]
+margin_left = 208.0
+margin_right = 272.0
+margin_bottom = 40.0
+theme = ExtResource( 1 )
+text = "Op2"
+align = 1
+valign = 1
+
+[node name="Valid2" type="Label" parent="."]
+margin_left = 272.0
+margin_right = 312.0
+margin_bottom = 40.0
+theme = ExtResource( 1 )
+text = "V2"
+align = 1
+valign = 1
+
+[node name="Out" type="Label" parent="."]
+margin_left = 312.0
+margin_right = 376.0
+margin_bottom = 40.0
+theme = ExtResource( 1 )
+text = "Out"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Ready" type="Label" parent="."]
+margin_left = 376.0
+margin_right = 416.0
+margin_bottom = 40.0
+theme = ExtResource( 1 )
+text = "R"
+align = 1
+valign = 1
